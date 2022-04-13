@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Hedaer = () => {
   return (
     <header style={{background: "black", height: "60px", color: "white", display: "grid", placeItems: "center"}}>

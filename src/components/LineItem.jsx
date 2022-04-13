@@ -11,11 +11,7 @@ const LineItem = ({ item, handleCheck, handleDelete }) => {
           checked={item.checked}
         />
         <Form.Check.Label
-          style={
-            item.checked
-              ? { textDecoration: "line-through" }
-              : null
-          }
+          style={item.checked ? { textDecoration: "line-through" } : null}
         >
           {item.item}
         </Form.Check.Label>
